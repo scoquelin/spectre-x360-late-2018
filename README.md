@@ -13,13 +13,13 @@ Instructions are [here](https://support.hp.com/ca-en/document/c02693833).
 I was able to use a Dell USB-C DA200 (RJ45, USB and HDMI working well)
 
 # Issues
-- ELAN Touchpad not working on kernels > 4.15
+- ELAN Touchpad not working on Debian out of the box
 - Webcam only works with uvcvideo (Zoom working but not Skype). Cheese does not recognize webcam either.
-- Webcam integrated microphone not working
+- Webcam integrated microphone not working (all distros)
 
 # TODO
 - Test fingerprint reader
-- Test Mint 19 and Ubuntu
+- Test Mint 19
 - Mess with synaptics
 - Report microphone issue
 
@@ -27,17 +27,20 @@ I was able to use a Dell USB-C DA200 (RJ45, USB and HDMI working well)
 
 |                   | Kernel version | Auto-rotate | Touchpad | Microphone |
 |-------------------|----------------|-------------|----------|------------|
+| Ubuntu 18.04 LTS  | 4.15           | Yes         | Yes      | No         |
+| Ubuntu 18.10      | 4.18           | Yes         | Yes      | No         |
+| ElementaryOS 5.0  | 4.15           | Yes         | Yes      | No         |
+| PopOS! 18.04 LTS  | 4.15           | Yes         | Yes      | No         |
 | Debian stretch    | 4.9            | ?           | No       | No         |
 | Debian testing    | 4.18           | ?           | No       | No         |
 | Deepin 15.8       | 4.15           | No          | Yes      | No         |
-| Deepin 15.8       | 4.16           | No          | No(!)    | No         |
-| ElementaryOS 5.0  | 4.15           | Yes         | Yes      | No         |
-| PopOS! 18.04 LTS  | 4.15           | Yes         | Yes      | No         |
+| Deepin 15.8       | 4.16(upgraded) | No          | No(!)    | No         |
+
 
 
 # Bottom line
 
-If you don't want to mess around too much for now I would recommend to install either PopOS! or ElementaryOS.
+If you don't want to mess around too much for now I would recommend to install Ubuntu-based distros.
 As for the microphone on my side I workaround it using a headset with integrated microphone for now...
 
 My original intent was to run Debian on that laptop, I will keep trying though!
