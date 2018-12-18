@@ -19,8 +19,7 @@ I was able to use a Dell USB-C DA200 (RJ45, USB and HDMI working well)
 
 # TODO
 - Test fingerprint reader
-- Test Mint 19
-- Mess with synaptics
+- Mess with synaptics on Debian
 - Report microphone issue
 
 # Tested distros and current state
@@ -29,6 +28,7 @@ I was able to use a Dell USB-C DA200 (RJ45, USB and HDMI working well)
 |-------------------|----------------|-------------|----------|------------|
 | Ubuntu 18.04 LTS  | 4.15           | Yes         | Yes      | No         |
 | Ubuntu 18.10      | 4.18           | Yes         | Yes      | No         |
+| Mint 19           | 4.15           | Yes         | Yes      | No         |
 | ElementaryOS 5.0  | 4.15           | Yes         | Yes      | No         |
 | PopOS! 18.04 LTS  | 4.15           | Yes         | Yes      | No         |
 | Debian stretch    | 4.9            | ?           | No       | No         |
