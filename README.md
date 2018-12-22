@@ -16,6 +16,7 @@ I was able to use a Dell USB-C DA200 (RJ45, USB and HDMI working well)
 - ELAN Touchpad not working on Debian out of the box
 - Webcam only works with uvcvideo (Zoom working but not Skype). Cheese does not recognize webcam either.
 - Webcam integrated microphone not working (all distros)
+- Similar report has been issued for Arch [here](https://wiki.archlinux.org/index.php/HP_Spectre_x360_-_13-ap0xxxx)
 
 # TODO
 - Test fingerprint reader
@@ -28,7 +29,8 @@ I was able to use a Dell USB-C DA200 (RJ45, USB and HDMI working well)
 |-------------------|----------------|-------------|----------|------------|
 | Ubuntu 18.04 LTS  | 4.15           | Yes         | Yes      | No         |
 | Ubuntu 18.10      | 4.18           | Yes         | Yes      | No         |
-| Mint 19           | 4.15           | Yes         | Yes      | No         |
+| Mint 19 (Tara)    | 4.15           | Yes         | Yes      | No         |
+| Mint 19.1 (Tessa) | 4.15           | Yes         | Yes      | No         |
 | ElementaryOS 5.0  | 4.15           | Yes         | Yes      | No         |
 | PopOS! 18.04 LTS  | 4.15           | Yes         | Yes      | No         |
 | Debian stretch    | 4.9            | ?           | No       | No         |
